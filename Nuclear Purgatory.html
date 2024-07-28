@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuclear Purgatory</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-color: #111;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #e63946;
+            display: inline-block;
+            letter-spacing: 0.05em; /* Ajustado o espaçamento entre letras */
+        }
+
+        .title-line {
+            display: block;
+        }
+
+        h1 span {
+            display: inline-block;
+            animation: bounce 2s infinite;
+        }
+
+        /* Animação para cada letra */
+        h1 span:nth-child(1) { animation-delay: 0s; }
+        h1 span:nth-child(2) { animation-delay: 0.2s; }
+        h1 span:nth-child(3) { animation-delay: 0.4s; }
+        h1 span:nth-child(4) { animation-delay: 0.6s; }
+        h1 span:nth-child(5) { animation-delay: 0.8s; }
+        h1 span:nth-child(6) { animation-delay: 1s; }
+        h1 span:nth-child(7) { animation-delay: 1.2s; }
+        h1 span:nth-child(8) { animation-delay: 1.4s; }
+        h1 span:nth-child(9) { animation-delay: 1.6s; }
+        h1 span:nth-child(10) { animation-delay: 1.8s; }
+        h1 span:nth-child(11) { animation-delay: 2s; }
+        h1 span:nth-child(12) { animation-delay: 2.2s; }
+        h1 span:nth-child(13) { animation-delay: 2.4s; }
+        h1 span:nth-child(14) { animation-delay: 2.6s; }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        #hero {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        #hero img {
+            width: 100%;
+            max-width: 800px;
+            border: 5px solid #e63946;
+            border-radius: 15px;
+            animation: zoomIn 2s ease-in-out;
+        }
+
+        section {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #e63946;
+            margin-bottom: 10px;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+        #character img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            animation: zoomIn 2s ease-in-out;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #aaa;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Animações */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes zoomIn {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(-100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <span class="title-line">𝕹𝖚𝖈𝖑𝖊𝖆𝖗</span>
+            <span class="title-line">𝕻𝖚𝖗𝖌𝖆𝖙𝖔𝖗𝖞</span>
+        </h1>
+    </header>
+    <section id="hero">
+        <img src="https://i.imgur.com/JgjF1jr.jpg" alt="Capa do Jogo">
+    </section>
+    <section id="about">
+        <h2>Sobre o Jogo</h2>
+        <p>No ano de 2072, um mundo desolado pela ganância e corrupção humana mergulhou em um abismo de trevas e desespero. Uma guerra nuclear catastrófica, conhecida como "A Grande Escuridão", varreu a superfície do planeta, deixando para trás apenas ruínas e sombras torturadas pelo passado.</p>
+        <p>Os resquícios da humanidade deformada pela radiação emergiram como os Desfigurados, uma visão macabra de sua antiga glória. Carregando os sinais da dor e da destruição, eles vagam pelas sombras, uma lembrança sinistra do preço da ganância humana. Seus rostos ocultos por crânios de animais refletem não apenas o horror do mundo pós-apocalíptico, mas também a sede insaciável por vingança que arde em seus corações corrompidos.</p>
+        <p>Enquanto isso, os Purgadores surgiram como guardiões sombrios da escuridão, vestindo o manto negro da justiça em um mundo sem lei. Ocultos atrás de máscaras da peste, eles caçam as sombras com determinação implacável, buscando trazer uma ordem frágil ao caos que os rodeia. Sua presença é um lembrete constante do julgamento iminente que aguarda aqueles que ousam desafiar a escuridão.</p>
+        <p>Mas mesmo as sombras mais profundas não são páreo para as Feras Mutantes, horrores distorcidos que emergiram das profundezas da radiação. Com olhos selvagens e presas afiadas, elas são os espectros da natureza corrompida, devorando tudo em seu caminho e deixando para trás apenas a morte e o desespero.</p>
+        <p>Neste mundo condenado, os jogadores assumem o papel de sobreviventes desesperados, lutando não apenas contra as criaturas que assombram as sombras, mas também contra seus próprios demônios internos. Em uma jornada para além do abismo, eles enfrentarão terrores inimagináveis, desvendarão segredos sombrios e decidirão o destino de um mundo à beira do colapso total.</p>
+    </section>
+    <section id="character">
+    <h2>Personagem Principal</h2>
+    <img src="https://i.postimg.cc/bYbrmCqg/IMG-20240711-WA0012.jpg" alt="Darby">
+    <p>Darby é um jovem de 19 anos atormentado por esquizofrenia e ansiedade, cuja pele pálida reflete não apenas sua condição mental frágil, mas também o ambiente desolado em que cresceu. Ele é conhecido entre os sobreviventes como "o rapaz do sobretudo preto", uma figura sombria que parece ter sido consumida pela escuridão do mundo ao seu redor.</p>
+    <p>Darby nasceu em meio ao caos e à devastação causados pela guerra nuclear que transformou o mundo em um deserto radioativo. Sua infância foi marcada por horrores indescritíveis e perdas inimagináveis, deixando-o emocionalmente e mentalmente cicatrizado.</p>
+    <p>Desde jovem, Darby foi atormentado por visões e vozes que parecem ecoar de lugares distantes e sombrios. Sua mente frágil luta para distinguir entre realidade e ilusão, mergulhando-o em um labirinto de medo e desespero. Ele desenvolveu uma fixação obsessiva em encontrar respostas para os mistérios que o assombram, mesmo que isso signifique enfrentar os terrores mais profundos de sua própria psique.</p>
+    <p>No entanto, por trás da fachada silenciosa e reservada de Darby, há um segredo obscuro que ele guarda a sete chaves. Um segredo que o assombra em seus sonhos mais sombrios e o persegue em seus momentos de lucidez. Esse segredo, quando finalmente revelado, desencadeará uma série de eventos que mudarão para sempre o destino de Darby e o mundo ao seu redor.</p>
+</section></body></html>
